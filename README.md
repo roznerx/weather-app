@@ -1,2 +1,3 @@
-# weather-app
-Weather App for The Odin Project 
+# "Weather App" for The Odin Project
+
+Made by **roznerx** (ignaciorosner@gmail.com)
