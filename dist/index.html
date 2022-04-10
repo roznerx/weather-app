@@ -10,7 +10,6 @@
 </head>
 <body>
     <div id="data-container">
-        <!--SEARCH SECTION-->
         <div id="search-section">
             <input type="search" id="city-search" class="search-section-item" name="city-search" placeholder="City">
             <input type="search" id="country-search" class="search-section-item"name="country-search" placeholder="Country">
@@ -18,33 +17,29 @@
                 <span id="search-icon" class="material-icons">search</span>
             </button>
         </div>
-        <!--FIRST SECTION-->
         <div id="first-section">
             <div id="icon-container">
                 <img id="main-icon" src="./img/icons/clear-sky.png" alt="">
             </div>
             <div id="names-container">
-                <h3 id="city-name" class="names">Buenos Aires</h3>
-                <h3 id="country-name" class="names">Argentina</h3>
+                <h3 id="city-name" class="names"></h3>
+                <h3 id="country-name" class="names"></h3>
             </div>
         </div>
-        <!--SECOND SECTION-->
         <div id="second-section">
             <div id="left-side">
-                <!--VISUALS-->
                 <div id="temp-visuals">
                     <div id="deg-changer">
-                        <h3 class="changer-btn">°C</h3>
-                        <h3 class="changer-btn">°F</h3>
+                        <h3 id="c-btn" class="changer-btn">°C</h3>
+                        <h3 id="f-btn" class="changer-btn">°F</h3>
                     </div>
-                    <h3 id="temperature" class="names">20ºC</h3>
-                    <h3 id="main-data">Clear Sky</h3>
+                    <h3 id="temperature" class="names"></h3>
+                    <h3 id="main-data"></h3>
                 </div>
-                <!--DATA-->
                 <div id="temp-info">
-                    <h3>Max 29º</h3>
-                    <h3>Min 12º</h3>
-                    <h3>Feels Like 30º</h3>
+                    <h3 id="max-temp"></h3>
+                    <h3 id="min-temp"></h3>
+                    <h3 id="feels-like"></h3>
                 </div>
             </div>
             <div id="right-side">
@@ -58,13 +53,13 @@
                     <h4>Humidity</h4>
                     <h4>Pressure</h4>
                     <h4>Visibility</h4>
-                    <h4>Wind</h4>
+                    <h4>Wind (Deg/Speed)</h4>
                 </div>
                 <div id="data-numbers">
-                    <h4 id="humidity-number">1231</h4>
-                    <h4 id="pressure-number">23231</h4>
-                    <h4 id="visibility-nunmber">213321</h4>
-                    <h4 id="wind-number">21323</h4>
+                    <h4 id="humidity-number"></h4>
+                    <h4 id="pressure-number"></h4>
+                    <h4 id="visibility-nunmber"></h4>
+                    <h4 id="wind-number"></h4>
                 </div>
             </div>
         </div>
