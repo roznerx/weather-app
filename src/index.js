@@ -41,7 +41,7 @@ let fFeelsLike;
 async function fetchWeather(city, country) {
     try {
         loader.style.display = 'block';
-        const cityResponse = await fetch(`http://api.openweathermap.org/geo/1.0/direct?q=${city}&limit=5&appid=935d96d17070e6ae585257db98f8025f`, {mode: 'cors'});
+        const cityResponse = await fetch(`https://api.openweathermap.org/geo/1.0/direct?q=${city}&limit=5&appid=935d96d17070e6ae585257db98f8025f`, {mode: 'cors'});
         const cityData = await cityResponse.json();
         const cityArrs = await cityData.map(cd => [cd.country, cd.lat, cd.lon]);
         let dataArr;
